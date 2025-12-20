@@ -116,7 +116,7 @@ const PostJob = () => {
                             />
                         </div>
                         <div>
-                            <Label>Job Type</Label>
+                            <Label>Project Type</Label>
                             <Input
                                 type="text"
                                 name="jobType"

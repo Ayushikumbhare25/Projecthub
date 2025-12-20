@@ -26,10 +26,10 @@ const AdminJobsTable = () => {
     return (
         <div>
             <Table>
-                <TableCaption>A list of your recent  posted jobs</TableCaption>
+                <TableCaption>A list of your recent  posted project</TableCaption>
                 <TableHeader>
                     <TableRow>
-                        <TableHead>Company Name</TableHead>
+                        <TableHead>Project Name</TableHead>
                         <TableHead>Role</TableHead>
                         <TableHead>Date</TableHead>
                         <TableHead className="text-right">Action</TableHead>
@@ -52,7 +52,7 @@ const AdminJobsTable = () => {
                                             </div>
                                             <div onClick={()=> navigate(`/admin/jobs/${job._id}/applicants`)} className='flex items-center w-fit gap-2 cursor-pointer mt-2'>
                                                 <Eye className='w-4'/>
-                                                <span>Applicants</span>
+                                                <span>Subjects</span>
                                             </div>
                                         </PopoverContent>
                                     </Popover>

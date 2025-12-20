@@ -84,11 +84,11 @@ const CompanySetup = () => {
                             <ArrowLeft />
                             <span>Back</span>
                         </Button>
-                        <h1 className='font-bold text-xl'>Company Setup</h1>
+                        <h1 className='font-bold text-xl'>Project Setup</h1>
                     </div>
                     <div className='grid grid-cols-2 gap-4'>
                         <div>
-                            <Label>Company Name</Label>
+                            <Label>Project Name</Label>
                             <Input
                                 type="text"
                                 name="name"

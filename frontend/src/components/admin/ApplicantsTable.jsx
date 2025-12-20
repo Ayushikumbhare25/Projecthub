@@ -29,7 +29,7 @@ const ApplicantsTable = () => {
     return (
         <div>
             <Table>
-                <TableCaption>A list of your recent applied user</TableCaption>
+                <TableCaption>A list of your recent applied Project</TableCaption>
                 <TableHeader>
                     <TableRow>
                         <TableHead>FullName</TableHead>
